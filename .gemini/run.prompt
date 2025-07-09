@@ -1,0 +1,8 @@
+You are an expert-level software engineer. Read the following PRP and generate a list of actions to build the feature.
+
+Allowed actions are `CREATE path` or `MODIFY path`.
+Each action must be followed by a code block.
+
+Separate each action block with the exact delimiter: `<--BLOCK_SEPARATOR-->`
+
+Output only the action blocks. Provide no explanation, no numbering, and no conversational text.
