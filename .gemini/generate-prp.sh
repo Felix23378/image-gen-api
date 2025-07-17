@@ -83,7 +83,7 @@ mkdir -p "$PRP_DIR"
 #    and save the output to the destination file.
 #    (This assumes 'gemini' is a command available in the path)
 echo "⏳ Generating PRP for feature '$FEATURE_NAME'..."
-echo "$FULL_PROMPT" | gemini > "$OUTPUT_FILE"
+echo "$FULL_PROMPT" | gemini --model gemini-2.5-flash > "$OUTPUT_FILE"
 
 # 5. Success message
 echo "✅ PRP generated successfully: $OUTPUT_FILE"
