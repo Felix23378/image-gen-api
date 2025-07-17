@@ -1,6 +1,6 @@
-// src/api/generate-image-prompt.js - Main endpoint
+// api/generate-image.js - Main endpoint
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { getMyanmarImageContext, validateMyanmarContent } from '../../examples/utils/myanmar-context.js';
+import { getMyanmarImageContext, validateMyanmarContent } from '../examples/utils/myanmar-context.js';
 
 // Placeholder for a simple sanitize function
 function sanitize(text) {
