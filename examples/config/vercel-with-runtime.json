@@ -2,14 +2,14 @@
   "version": 2,
   "functions": {
     "api/*.js": {
-      "runtime": "nodejs18.x",
+      "runtime": "nodejs18.x", 
       "maxDuration": 30
     }
   },
   "builds": [
     {
       "src": "api/generate-image.js",
-      "use": "@vercel/node"
+      "use": " @vercel/node"
     }
   ]
 }
